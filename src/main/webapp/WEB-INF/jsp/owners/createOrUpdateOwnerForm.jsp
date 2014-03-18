@@ -33,10 +33,10 @@
         <div class="form-actions">
             <c:choose>
                 <c:when test="${owner['new']}">
-                    <button type="submit">Add Owner</button>
+                    <button type="submit"><fmt:message key="addOwner"/></button>
                 </c:when>
                 <c:otherwise>
-                    <button type="submit">Update Owner</button>
+                    <button type="submit"><fmt:message key="updateOwner"/></button>
                 </c:otherwise>
             </c:choose>
         </div>

@@ -47,10 +47,10 @@
         <div class="form-actions">
             <c:choose>
                 <c:when test="${pet['new']}">
-                    <button type="submit">Add Pet</button>
+                    <button type="submit"><fmt:message key="addNewPet"/></button>
                 </c:when>
                 <c:otherwise>
-                    <button type="submit">Update Pet</button>
+                    <button type="submit"><fmt:message key="updatePet"/></button>
                 </c:otherwise>
             </c:choose>
         </div>
